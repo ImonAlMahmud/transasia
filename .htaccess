@@ -1,0 +1,29 @@
+# Security Headers
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Disable Directory Listing
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect configuration files
+<FilesMatch "\.(sql|md|log|json|lock)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Sitemap Redirect
+RewriteEngine On
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Custom 404 Page
+ErrorDocument 404 /transasia/404.php

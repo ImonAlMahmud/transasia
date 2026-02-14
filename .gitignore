@@ -1,0 +1,14 @@
+# XAMPP/Local environment
+/logs/
+/tmp/
+*.log
+*.sql
+!transasia_db_backup.sql
+
+# Sensitive data
+includes/db_local.php
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

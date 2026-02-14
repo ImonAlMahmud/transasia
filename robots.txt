@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Directories
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /css/
+Disallow: /js/
+
+# Sitemap link
+Sitemap: http://localhost/transasia/sitemap.xml
