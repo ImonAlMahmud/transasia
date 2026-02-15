@@ -34,7 +34,7 @@
   <main>
     <!-- Page Header -->
     <section class="page-header" aria-label="Page header">
-      <div class="page-header-bg" style="background-image: url('images/sector-engineering-new.jpg');"></div>
+      <div class="page-header-bg" style="background-image: url('images/sector-infrastructure.jpg');"></div>
       <div class="page-header-overlay"></div>
       <div class="container">
         <h1 data-aos="fade-up">Engineering & Fabrication</h1>
@@ -53,51 +53,53 @@
       <div class="container">
         <div class="two-column">
           <div class="column-image" data-aos="fade-right">
-            <img src="images/sector-engineering-new.jpg" alt="Engineering and Fabrication" class="img-fluid rounded shadow">
+            <img src="images/sector-infrastructure.jpg" alt="Engineering and Fabrication" class="img-fluid rounded shadow">
           </div>
           <div class="column-content" data-aos="fade-left">
             <div class="sector-badge">Precision Engineering</div>
             <h2>Technical Mastery in Fabrication & Design</h2>
             <p>Our Engineering & Fabrication sector recruitment focuses on sourcing high-caliber professionals who bring technical precision and innovation to industrial projects. We support diverse fields including automotive, aerospace, structural, and mechanical engineering.</p>
             <p>We specialized in identifying candidates with advanced technical certifications and hands-on experience in complex metalworks and precision assembly.</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Structural Steel Fabrication</h4>
-                  <p>Skilled fabricators and fitters specialized in heavy structural steel for buildings, bridges, and industrial complexes.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Certified Welding Services</h4>
-                  <p>Certified 6G, TIG, and MIG welders capable of working in challenging industrial environments with precision.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Industrial Mechanical Engineering</h4>
-                  <p>Experienced mechanical engineers specialized in manufacturing systems, automation, and industrial design.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>CNC & Precision Machining</h4>
-                  <p>Expert CNC operators and technicians skilled in computer-aided manufacturing and precision tool design.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Scale Your Engineering Capacity?</h4>
-              <p>Connect with our technical recruitment team to find your next specialist.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Structural Steel Fabrication</h4>
+              <p>Skilled fabricators and fitters specialized in heavy structural steel for buildings, bridges, and industrial complexes.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Certified Welding Services</h4>
+              <p>Certified 6G, TIG, and MIG welders capable of working in challenging industrial environments with precision.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Industrial Mechanical Engineering</h4>
+              <p>Experienced mechanical engineers specialized in manufacturing systems, automation, and industrial design.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>CNC & Precision Machining</h4>
+              <p>Expert CNC operators and technicians skilled in computer-aided manufacturing and precision tool design.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Scale Your Engineering Capacity?</h4>
+            <p>Connect with our technical recruitment team to find your next specialist.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

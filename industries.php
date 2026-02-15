@@ -69,7 +69,7 @@
           <!-- Construction -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="0">
             <div class="industry-card-image">
-              <img src="images/sector-construction-new.jpg" alt="Construction industry" onerror="this.src='images/industry-construction.jpg'">
+              <img src="images/sector-construction.jpg" alt="Construction industry">
             </div>
             <div class="industry-card-overlay">
               <h3>Construction</h3>
@@ -80,7 +80,7 @@
           <!-- Oil & Gas / Petrochemical -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="100">
             <div class="industry-card-image">
-              <img src="images/sector-oilgas-new.jpg" alt="Oil & Gas / Petrochemical" onerror="this.src='images/industry-oilgas.jpg'">
+              <img src="images/sector-oilgas.jpg" alt="Oil & Gas / Petrochemical">
             </div>
             <div class="industry-card-overlay">
               <h3>Oil & Gas<br>Petrochemical</h3>
@@ -91,7 +91,7 @@
           <!-- Engineering & Fabrication -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="200">
             <div class="industry-card-image">
-              <img src="images/sector-engineering-new.jpg" alt="Engineering & Fabrication" onerror="this.src='images/industry-infrastructure.jpg'">
+              <img src="images/sector-infrastructure.jpg" alt="Engineering & Fabrication">
             </div>
             <div class="industry-card-overlay">
               <h3>Engineering & Fabrication</h3>
@@ -102,7 +102,7 @@
           <!-- Food & Consumers Goods -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="300">
             <div class="industry-card-image">
-              <img src="images/sector-food-new.jpg" alt="Food & Consumers Goods" onerror="this.src='images/industry-manufacturing.jpg'">
+              <img src="images/sector-manufacturing.jpg" alt="Food & Consumers Goods">
             </div>
             <div class="industry-card-overlay">
               <h3>Food & Consumers Goods</h3>
@@ -113,7 +113,7 @@
           <!-- Facility Management -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="400">
             <div class="industry-card-image">
-              <img src="images/sector-facility-new.jpg" alt="Facility Management" onerror="this.src='images/industry-healthcare.jpg'">
+              <img src="images/sector-healthcare.jpg" alt="Facility Management">
             </div>
             <div class="industry-card-overlay">
               <h3>Facility Management</h3>
@@ -124,7 +124,7 @@
           <!-- Transportation -->
           <div class="industry-card" data-aos="fade-up" data-aos-delay="500">
             <div class="industry-card-image">
-              <img src="images/sector-transport-new.jpg" alt="Transportation" onerror="this.src='images/industry-infrastructure.jpg'">
+              <img src="images/sector-infrastructure.jpg" alt="Transportation">
             </div>
             <div class="industry-card-overlay">
               <h3>Transportation</h3>
@@ -160,7 +160,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-construction.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Construction Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -182,7 +182,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-oilgas.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Oil & Gas Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -190,7 +190,7 @@
         <!-- Engineering & Fabrication -->
         <div id="engineering" class="two-column" style="margin-bottom: 80px;" data-aos="fade-up">
           <div class="column-image">
-            <img src="images/sector-engineering-new.jpg" alt="Engineering and Fabrication" onerror="this.src='images/sector-oilgas.jpg'">
+            <img src="images/sector-infrastructure.jpg" alt="Engineering and Fabrication">
           </div>
           <div class="column-content">
             <h3><i class="fas fa-gears" style="color: var(--primary-blue); margin-right: 12px;"></i>Engineering & Fabrication</h3>
@@ -204,7 +204,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-engineering.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Engineering Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -212,7 +212,7 @@
         <!-- Food & Consumers Goods -->
         <div id="food" class="two-column reverse" style="margin-bottom: 80px;" data-aos="fade-up">
           <div class="column-image">
-            <img src="images/sector-food-new.jpg" alt="Food production facility" onerror="this.src='images/sector-manufacturing.jpg'">
+            <img src="images/sector-manufacturing.jpg" alt="Food production facility">
           </div>
           <div class="column-content">
             <h3><i class="fas fa-cookie-bite" style="color: var(--primary-blue); margin-right: 12px;"></i>Food & Consumers Goods</h3>
@@ -226,7 +226,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-food.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Food Sector Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -234,7 +234,7 @@
         <!-- Facility Management -->
         <div id="facility" class="two-column" style="margin-bottom: 80px;" data-aos="fade-up">
           <div class="column-image">
-            <img src="images/sector-facility-new.jpg" alt="Facility management services" onerror="this.src='images/sector-healthcare.jpg'">
+            <img src="images/sector-healthcare.jpg" alt="Facility management services">
           </div>
           <div class="column-content">
             <h3><i class="fas fa-building-circle-check" style="color: var(--primary-blue); margin-right: 12px;"></i>Facility Management</h3>
@@ -248,7 +248,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-facility.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Facility Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -256,7 +256,7 @@
         <!-- Transportation -->
         <div id="transport" class="two-column reverse" data-aos="fade-up">
           <div class="column-image">
-            <img src="images/sector-transport-new.jpg" alt="Transportation and Logistics" onerror="this.src='images/sector-infrastructure.jpg'">
+            <img src="images/sector-infrastructure.jpg" alt="Transportation and Logistics">
           </div>
           <div class="column-content">
             <h3><i class="fas fa-truck-moving" style="color: var(--primary-blue); margin-right: 12px;"></i>Transportation</h3>
@@ -270,7 +270,7 @@
             </ul>
             <div class="cta-btns" style="display: flex; gap: 12px; margin-top: 24px;">
               <a href="sector-transport.php" class="btn btn-primary">Read More</a>
-              <a href="contact.php" class="btn btn-outline-dark">Request Transportation Talent</a>
+              <a href="contact.php" class="btn btn-outline-dark">Contact Us</a>
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@
         <div data-aos="fade-up">
           <h2>Looking for Industry-Specific Talent?</h2>
           <p>Our sector specialists are ready to understand your unique requirements</p>
-          <a href="contact.php" class="btn btn-white">Talk to a Sector Specialist</a>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

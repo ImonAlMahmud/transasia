@@ -247,37 +247,26 @@
           <p>Serving clients and candidates across multiple continents</p>
         </div>
         <div class="value-cards">
-          <div class="value-card" data-aos="fade-up" data-aos-delay="0">
-            <div class="value-card-icon">
-              <i class="fas fa-building"></i>
+          <?php 
+          $stmt = $pdo->query("SELECT * FROM global_offices WHERE is_active = 1 ORDER BY display_order ASC");
+          $offices = $stmt->fetchAll();
+          
+          if (empty($offices)): ?>
+            <div style="grid-column: 1/-1; text-align: center; padding: 40px; background: #fff; border-radius: 12px; border: 1px dashed #ddd; color: #888;">
+              <p style="margin: 0;">No global offices listed at the moment.</p>
             </div>
-            <h3>Bangladesh</h3>
-            <p><strong>Headquarters</strong></p>
-            <?php if ($address = get_setting('site_address')): ?>
-              <p><?php echo htmlspecialchars($address); ?></p>
-            <?php endif; ?>
-            <?php if ($phone = get_setting('support_phone')): ?>
-              <p style="margin-top: 16px;"><i class="fas fa-phone" style="margin-right: 8px;"></i> <?php echo htmlspecialchars($phone); ?></p>
-            <?php endif; ?>
-          </div>
-          <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+          <?php else: 
+            foreach ($offices as $index => $office):
+              $delay = $index * 100;
+          ?>
+          <div class="value-card" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>">
             <div class="value-card-icon">
-              <i class="fas fa-building"></i>
+              <i class="<?php echo htmlspecialchars($office['icon'] ?: 'fas fa-building'); ?>"></i>
             </div>
-            <h3>United Arab Emirates</h3>
-            <p><strong>Dubai Office</strong></p>
-            <p>2303, The Binary by Omniyat, Al Abraj Street, Business Bay, Dubai</p>
-            <p style="margin-top: 16px;"><i class="fas fa-phone" style="margin-right: 8px;"></i> +971 X XXX XXXX</p>
+            <h3><?php echo htmlspecialchars($office['office_name']); ?></h3>
+            <p><?php echo nl2br(htmlspecialchars($office['address'])); ?></p>
           </div>
-          <div class="value-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="value-card-icon">
-              <i class="fas fa-building"></i>
-            </div>
-            <h3>Nepal</h3>
-            <p><strong>Kathmandu Office</strong></p>
-            <p>Shiva Mandir, Tokha 09, Gongabu 44600, Kathmandu, Bagmati</p>
-            <p style="margin-top: 16px;"><i class="fas fa-phone" style="margin-right: 8px;"></i> +977 X XXXX XXXX</p>
-          </div>
+          <?php endforeach; endif; ?>
         </div>
       </div>
     </section>
@@ -354,8 +343,8 @@
           <h2>Let's Start a Conversation</h2>
           <p>We're ready to help you with your workforce needs</p>
           <?php if ($phone = get_setting('support_phone')): ?>
-          <a href="tel:<?php echo htmlspecialchars($phone); ?>" class="btn btn-white"><i class="fas fa-phone" style="margin-right: 8px;"></i>
-            Call Us Now</a>
+          <a href="contact.php" class="btn btn-white"><i class="fas fa-envelope" style="margin-right: 8px;"></i>
+            Contact Us</a>
           <?php endif; ?>
         </div>
       </div>

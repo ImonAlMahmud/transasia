@@ -34,7 +34,7 @@
   <main>
     <!-- Page Header -->
     <section class="page-header" aria-label="Page header">
-      <div class="page-header-bg" style="background-image: url('images/sector-facility-new.jpg');"></div>
+      <div class="page-header-bg" style="background-image: url('images/sector-healthcare.jpg');"></div>
       <div class="page-header-overlay"></div>
       <div class="container">
         <h1 data-aos="fade-up">Facility Management</h1>
@@ -53,51 +53,53 @@
       <div class="container">
         <div class="two-column">
           <div class="column-image" data-aos="fade-right">
-            <img src="images/sector-facility-new.jpg" alt="Facility management operations" class="img-fluid rounded shadow">
+            <img src="images/sector-healthcare.jpg" alt="Facility management operations" class="img-fluid rounded shadow">
           </div>
           <div class="column-content" data-aos="fade-left">
             <div class="sector-badge">FM Expertise</div>
             <h2>Maintaining Your Assets with Professional Staff</h2>
             <p>Facility management is essential for the smooth operation of commercial, residential, and industrial complexes. TransAsia provides high-quality manpower to ensure that your facilities remain safe, clean, and fully operational around the clock.</p>
             <p>From technical MEP (Mechanical, Electrical, Plumbing) services to soft services like security and janitorial care, we source individuals who are trained to deliver service excellence.</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Technical Maintenance (MEP)</h4>
-                  <p>Certified HVAC technicians, electricians, and plumbers for comprehensive building maintenance.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Security & Protection Services</h4>
-                  <p>Trained security officers and loss prevention specialists to safeguard your premises and assets.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Cleaning & Soft Services</h4>
-                  <p>Professional janitorial staff, housekeepers, and landscaping crews for large-scale facility care.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>BMS & Systems Operation</h4>
-                  <p>Qualified operators for Building Management Systems, fire safety, and surveillance networks.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Enhance Your Facility's Service Quality?</h4>
-              <p>Contact our FM recruitment desk to source dependable maintenance and service crews.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Technical Maintenance (MEP)</h4>
+              <p>Certified HVAC technicians, electricians, and plumbers for comprehensive building maintenance.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Security & Protection Services</h4>
+              <p>Trained security officers and loss prevention specialists to safeguard your premises and assets.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Cleaning & Soft Services</h4>
+              <p>Professional janitorial staff, housekeepers, and landscaping crews for large-scale facility care.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>BMS & Systems Operation</h4>
+              <p>Qualified operators for Building Management Systems, fire safety, and surveillance networks.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Enhance Your Facility's Service Quality?</h4>
+            <p>Contact our FM recruitment desk to source dependable maintenance and service crews.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

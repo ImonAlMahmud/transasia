@@ -34,7 +34,7 @@
   <main>
     <!-- Page Header -->
     <section class="page-header" aria-label="Page header">
-      <div class="page-header-bg" style="background-image: url('images/sector-food-new.jpg');"></div>
+      <div class="page-header-bg" style="background-image: url('images/sector-manufacturing.jpg');"></div>
       <div class="page-header-overlay"></div>
       <div class="container">
         <h1 data-aos="fade-up">Food & Consumers Goods</h1>
@@ -53,51 +53,53 @@
       <div class="container">
         <div class="two-column">
           <div class="column-image" data-aos="fade-right">
-            <img src="images/sector-food-new.jpg" alt="Food production and FMCG" class="img-fluid rounded shadow">
+            <img src="images/sector-manufacturing.jpg" alt="Food production and FMCG" class="img-fluid rounded shadow">
           </div>
           <div class="column-content" data-aos="fade-left">
             <div class="sector-badge">FMCG Expertise</div>
             <h2>Quality Manpower for the Consumer Supply Chain</h2>
             <p>The Food and Fast-Moving Consumer Goods (FMCG) industries require a highly disciplined and safety-conscious workforce. At TransAsia, we specialize in supplying skilled personnel for every stage of the consumer product lifecycle, from manufacturing to distribution.</p>
             <p>We ensure that all candidates are well-versed in industry-standard hygiene, safety protocols, and quality assurance measures (HACCP, ISO).</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Food Processing & Production</h4>
-                  <p>Certified operators for food production lines, processing plants, and industrial bakeries.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Packaging & Labeling Specialists</h4>
-                  <p>Skilled workers for high-speed automated packaging, bottling, and labeling systems.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>HACCP & Quality Assurance</h4>
-                  <p>Qualified QA/QC technicians and inspectors to ensure compliance with food safety regulations.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Consumer Goods Distribution</h4>
-                  <p>Efficient warehouse staff, forklift operators, and delivery coordinators for FMCG logistics.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Need Reliable FMCG Manpower?</h4>
-              <p>Contact our consumer goods specialists to discuss your high-volume staffing needs.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Food Processing & Production</h4>
+              <p>Certified operators for food production lines, processing plants, and industrial bakeries.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Packaging & Labeling Specialists</h4>
+              <p>Skilled workers for high-speed automated packaging, bottling, and labeling systems.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>HACCP & Quality Assurance</h4>
+              <p>Qualified QA/QC technicians and inspectors to ensure compliance with food safety regulations.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Consumer Goods Distribution</h4>
+              <p>Efficient warehouse staff, forklift operators, and delivery coordinators for FMCG logistics.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Need Reliable FMCG Manpower?</h4>
+            <p>Contact our consumer goods specialists to discuss your high-volume staffing needs.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

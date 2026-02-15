@@ -23,7 +23,7 @@ $site_name = get_setting('site_name', 'TransAsia Integrate Service Ltd');
         <li><a href="clients.php" class="<?php echo ($active_page == 'clients') ? 'active' : ''; ?>">Clients</a></li>
       </ul>
       
-      <a href="contact.php" class="btn btn-primary btn-sm">Partner With Us</a>
+      <a href="contact.php" class="btn btn-primary btn-sm">Contact Us</a>
       
       <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
         <span></span>
@@ -47,5 +47,5 @@ $site_name = get_setting('site_name', 'TransAsia Integrate Service Ltd');
       <li><a href="industries.php">Industries</a></li>
       <li><a href="clients.php">Clients</a></li>
     </ul>
-    <a href="contact.php" class="btn btn-primary">Partner With Us</a>
+    <a href="contact.php" class="btn btn-primary">Contact Us</a>
   </div>

@@ -179,7 +179,7 @@
                       <span><i class="fas fa-users"></i> Connecting Global Employers with Verified Skilled Talent</span>
                     </p>
                     <div class="hero-buttons" style="justify-content: flex-start; margin-top: 30px;">
-                      <a href="contact.php" class="btn btn-primary">Source Talent Now</a>
+                      <a href="contact.php" class="btn btn-primary">Contact Us</a>
                       <a href="services.php" class="btn btn-outline">Explore Services</a>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
                   <span><i class="fas fa-users"></i> Connecting Global Employers with Verified Skilled Talent</span>
                 </p>
                 <div class="hero-buttons">
-                  <a href="contact.php" class="btn btn-primary">Source Talent Now</a>
+                  <a href="contact.php" class="btn btn-primary">Contact Us</a>
                   <a href="services.php" class="btn btn-outline">Explore Services</a>
                 </div>
             </div>
@@ -604,7 +604,7 @@
         <div data-aos="fade-up">
           <h2>Ready to Build Your Workforce?</h2>
           <p>Partner with Bangladesh's most trusted recruitment agency</p>
-          <a href="contact.php" class="btn btn-white">Start Recruitment Process</a>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
           <div class="footer-cta-contact">
             <?php if ($phone = get_setting('support_phone')): ?>
               <a href="tel:<?php echo htmlspecialchars($phone); ?>"><i class="fas fa-phone"></i> <?php echo htmlspecialchars($phone); ?></a>

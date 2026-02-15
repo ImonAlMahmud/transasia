@@ -60,44 +60,46 @@
             <h2>Building Excellence Through Quality Manpower</h2>
             <p>The construction industry is the backbone of urban development and infrastructure. At TransAsia, we understand the critical importance of having a skilled, reliable, and safety-conscious workforce to ensure projects are completed on time and to the highest standards.</p>
             <p>We provide a comprehensive range of recruitment services for the construction sector, from highly qualified engineers and project managers to skilled tradespeople and general laborers.</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Civil & Structural Engineering</h4>
-                  <p>Qualified engineers with experience in large-scale residential, commercial, and industrial projects.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Project Management & Supervision</h4>
-                  <p>Experienced supervisors and managers to oversee site operations and ensure quality control.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Skilled Trades</h4>
-                  <p>Certified masons, carpenters, steel fixers, plumbers, and electricians ready for deployment.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Heavy Equipment Operations</h4>
-                  <p>Trained operators for cranes, excavators, and other specialized construction machinery.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Ready to Scale Your Construction Team?</h4>
-              <p>Contact our sector specialists today to discuss your project requirements.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Civil & Structural Engineering</h4>
+              <p>Qualified engineers with experience in large-scale residential, commercial, and industrial projects.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Project Management & Supervision</h4>
+              <p>Experienced supervisors and managers to oversee site operations and ensure quality control.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Skilled Trades</h4>
+              <p>Certified masons, carpenters, steel fixers, plumbers, and electricians ready for deployment.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Heavy Equipment Operations</h4>
+              <p>Trained operators for cranes, excavators, and other specialized construction machinery.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Ready to Scale Your Construction Team?</h4>
+            <p>Contact our sector specialists today to discuss your project requirements.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

@@ -2465,3 +2465,11 @@ section {
     padding: 60px 0;
   }
 }
+/* Premium CTA Section */
+.cta-premium { background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%); border-radius: 16px; padding: 48px; color: var(--white); position: relative; overflow: hidden; box-shadow: 0 20px 40px rgba(0, 86, 179, 0.2); display: flex; align-items: center; justify-content: space-between; gap: 32px; margin-top: 64px; z-index: 1; }
+.cta-premium::before { content: '\f0a1'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; right: -20px; bottom: -40px; font-size: 200px; color: rgba(255, 255, 255, 0.05); z-index: -1; transform: rotate(-15deg); }
+.cta-premium-content { flex: 1; }
+.cta-premium-content h4 { color: var(--white) !important; font-size: 28px; margin-bottom: 12px; font-weight: 700; }
+.cta-premium-content p { color: rgba(255, 255, 255, 0.9) !important; font-size: 18px; margin-bottom: 0; max-width: 600px; text-align: left; }
+.cta-premium .btn-white { white-space: nowrap; padding: 16px 40px; font-size: 16px; border-radius: 50px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+@media (max-width: 991px) { .cta-premium { flex-direction: column; text-align: center; padding: 40px 24px; gap: 24px; } .cta-premium-content p { text-align: center; margin-bottom: 8px; } .cta-premium-content h4 { font-size: 24px; } }

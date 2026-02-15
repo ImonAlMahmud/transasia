@@ -34,7 +34,7 @@
   <main>
     <!-- Page Header -->
     <section class="page-header" aria-label="Page header">
-      <div class="page-header-bg" style="background-image: url('images/sector-transport-new.jpg');"></div>
+      <div class="page-header-bg" style="background-image: url('images/sector-infrastructure.jpg');"></div>
       <div class="page-header-overlay"></div>
       <div class="container">
         <h1 data-aos="fade-up">Transportation & Logistics</h1>
@@ -53,51 +53,53 @@
       <div class="container">
         <div class="two-column">
           <div class="column-image" data-aos="fade-right">
-            <img src="images/sector-transport-new.jpg" alt="Transportation and logistics operations" class="img-fluid rounded shadow">
+            <img src="images/sector-infrastructure.jpg" alt="Transportation and logistics operations" class="img-fluid rounded shadow">
           </div>
           <div class="column-content" data-aos="fade-left">
             <div class="sector-badge">Logistics Expertise</div>
             <h2>Reliable Talent for the Global Supply Chain</h2>
             <p>The transportation and logistics industry is a fast-paced environment that requires reliability, efficiency, and a commitment to safety. TransAsia provides skilled manpower to keep your goods and people moving across borders and within local markets.</p>
             <p>We specialized in sourcing professional heavy and light vehicle drivers, as well as the administrative and technical staff needed to manage complex logistics networks.</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Professional Transportation Gear</h4>
-                  <p>Certified heavy vehicle drivers, bus drivers, and specialized forklift operators for various industrial needs.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Logistics & Fleet Management</h4>
-                  <p>Experienced coordinators to manage fleet operations, route planning, and documentation clerical tasks.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Warehouse & Distribution Center Operations</h4>
-                  <p>Skilled staff for loading, unloading, inventory management, and computerized warehouse systems.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Maintenance & Automotive Services</h4>
-                  <p>Qualified mechanics and technicians to ensure your fleet remains in peak operational condition.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Scale Your Logistics Capability?</h4>
-              <p>Contact our transportation specialists today to discuss your staffing requirements.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Professional Transportation Gear</h4>
+              <p>Certified heavy vehicle drivers, bus drivers, and specialized forklift operators for various industrial needs.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Logistics & Fleet Management</h4>
+              <p>Experienced coordinators to manage fleet operations, route planning, and documentation clerical tasks.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Warehouse & Distribution Center Operations</h4>
+              <p>Skilled staff for loading, unloading, inventory management, and computerized warehouse systems.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Maintenance & Automotive Services</h4>
+              <p>Qualified mechanics and technicians to ensure your fleet remains in peak operational condition.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Scale Your Logistics Capability?</h4>
+            <p>Contact our transportation specialists today to discuss your staffing requirements.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

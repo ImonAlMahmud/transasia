@@ -57,7 +57,7 @@ Since our establishment, we have built a strong reputation for professionalism, 
 
 We believe that the success of any organization begins with its people. That’s why we focus on quality recruitment, ethical practices, and continuous improvement to ensure mutual growth, satisfaction, and long-term partnerships with our clients and candidates alike.</p>
             <div style="display: flex; gap: 15px; margin-top: 24px; flex-wrap: wrap;">
-                <a href="contact.php" class="btn btn-primary">Get In Touch</a>
+                <a href="contact.php" class="btn btn-primary">Contact Us</a>
                 <a href="uploads/company-profile.pdf" download class="btn btn-secondary">
                     <i class="fas fa-download" style="margin-right: 8px;"></i> Download Company Profile
                 </a>
@@ -269,7 +269,7 @@ We believe that the success of any organization begins with its people. That’s
         <div data-aos="fade-up">
           <h2>Ready to Partner With Us?</h2>
           <p>Experience the TransAsia difference in international recruitment</p>
-          <a href="contact.php" class="btn btn-white">Contact Us Today</a>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

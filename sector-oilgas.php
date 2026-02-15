@@ -60,44 +60,46 @@
             <h2>Fueling Industry with Technical Talent</h2>
             <p>The Oil & Gas and Petrochemical sectors demand the highest levels of technical expertise, safety compliance, and operational reliability. TransAsia is a trusted partner for companies operating in upstream, midstream, and downstream environments.</p>
             <p>Our recruitment specialists precisely vet candidates to ensure they possess the necessary certifications and experience to operate in high-risk, high-reward industrial environments.</p>
-            
-            <div class="expertise-list mt-4">
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Upstream & Drilling Operations</h4>
-                  <p>Qualified petroleum engineers, rig operators, and technicians for onshore and offshore exploration.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Refining & Petrochemical Processing</h4>
-                  <p>Skilled operators and maintenance crews for chemical plants and oil refineries.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Pipeline & Infrastructure</h4>
-                  <p>Experienced technicians and welders specialized in high-pressure pipeline construction and maintenance.</p>
-                </div>
-              </div>
-              <div class="expertise-item">
-                <i class="fas fa-check-circle"></i>
-                <div>
-                  <h4>Health, Safety & Environment (HSE)</h4>
-                  <p>Certified safety officers and inspectors to ensure strict adherence to international safety protocols.</p>
-                </div>
-              </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="cta-box mt-5 p-4 bg-light rounded border-start border-primary border-4">
-              <h4>Demand for Specialized Oil & Gas Talent?</h4>
-              <p>Our energy specialists are ready to help you source the right technical workforce.</p>
-              <a href="contact.php" class="btn btn-primary">Partner with Us</a>
+        <div class="expertise-list mt-5" data-aos="fade-up">
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Upstream & Drilling Operations</h4>
+              <p>Qualified petroleum engineers, rig operators, and technicians for onshore and offshore exploration.</p>
             </div>
           </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Refining & Petrochemical Processing</h4>
+              <p>Skilled operators and maintenance crews for chemical plants and oil refineries.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Pipeline & Infrastructure</h4>
+              <p>Experienced technicians and welders specialized in high-pressure pipeline construction and maintenance.</p>
+            </div>
+          </div>
+          <div class="expertise-item">
+            <i class="fas fa-check-circle"></i>
+            <div>
+              <h4>Health, Safety & Environment (HSE)</h4>
+              <p>Certified safety officers and inspectors to ensure strict adherence to international safety protocols.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-premium" data-aos="fade-up">
+          <div class="cta-premium-content">
+            <h4>Demand for Specialized Oil & Gas Talent?</h4>
+            <p>Our energy specialists are ready to help you source the right technical workforce.</p>
+          </div>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>

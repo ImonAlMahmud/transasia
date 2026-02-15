@@ -168,64 +168,25 @@
     <!-- Become a Client CTA -->
     <section aria-labelledby="become-client-heading">
       <div class="container">
-        <div class="two-column">
-          <div class="column-content" data-aos="fade-right">
-            <h2 id="become-client-heading">Become a Client</h2>
-            <p>Join the growing list of companies that trust TransAsia for their workforce needs. Fill out the form and
-              our team will get in touch within 24 hours.</p>
-            <ul style="list-style: none; padding: 0; margin: 24px 0;">
-              <li style="padding: 12px 0;">
-                <i class="fas fa-check-circle" style="color: var(--accent-green); margin-right: 12px;"></i>
-                Dedicated account manager
-              </li>
-              <li style="padding: 12px 0;">
-                <i class="fas fa-check-circle" style="color: var(--accent-green); margin-right: 12px;"></i>
-                Customized recruitment solutions
-              </li>
-              <li style="padding: 12px 0;">
-                <i class="fas fa-check-circle" style="color: var(--accent-green); margin-right: 12px;"></i>
-                24/7 support throughout the process
-              </li>
-              <li style="padding: 12px 0;">
-                <i class="fas fa-check-circle" style="color: var(--accent-green); margin-right: 12px;"></i>
-                Post-placement follow-up
-              </li>
-            </ul>
-          </div>
-          <div class="column-image" data-aos="fade-left">
-            <div class="contact-form">
-              <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-validate>
-                <div class="form-group">
-                  <label for="company-name">Company Name *</label>
-                  <input type="text" id="company-name" name="company_name" required>
-                </div>
-                <div class="form-group">
-                  <label for="contact-person">Contact Person *</label>
-                  <input type="text" id="contact-person" name="contact_person" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Email Address *</label>
-                  <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                  <label for="industry">Industry *</label>
-                  <select id="industry" name="industry" required>
-                    <option value="">Select Industry</option>
-                    <option value="construction">Construction</option>
-                    <option value="oil-gas">Oil & Gas</option>
-                    <option value="healthcare">Healthcare</option>
-                    <option value="hospitality">Hospitality</option>
-                    <option value="manufacturing">Manufacturing</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="requirements">Workforce Requirements</label>
-                  <textarea id="requirements" name="requirements"
-                    placeholder="Tell us about your workforce needs..."></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
-              </form>
+        <div class="section-header" data-aos="fade-up" style="text-align: center; max-width: 800px; margin: 0 auto;">
+          <h2 id="become-client-heading">Become a Client</h2>
+          <p>Join the growing list of companies that trust TransAsia for their workforce needs. Experience our dedicated service and customized recruitment solutions.</p>
+          
+          <div class="benefits-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin: 40px 0; text-align: center;">
+            <div style="padding: 20px; background: #fff; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+              <i class="fas fa-check-circle" style="color: var(--accent-green); font-size: 20px; margin-bottom: 12px; display: block;"></i>
+              <h4 style="margin-bottom: 8px;">Dedicated Support</h4>
+              <p style="font-size: 14px; margin: 0;">A dedicated account manager to handle all your specific requirements.</p>
+            </div>
+            <div style="padding: 20px; background: #fff; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+              <i class="fas fa-check-circle" style="color: var(--accent-green); font-size: 20px; margin-bottom: 12px; display: block;"></i>
+              <h4 style="margin-bottom: 8px;">Custom Solutions</h4>
+              <p style="font-size: 14px; margin: 0;">Tailored recruitment strategies designed for your unique industry needs.</p>
+            </div>
+            <div style="padding: 20px; background: #fff; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+              <i class="fas fa-check-circle" style="color: var(--accent-green); font-size: 20px; margin-bottom: 12px; display: block;"></i>
+              <h4 style="margin-bottom: 8px;">24/7 Availability</h4>
+              <p style="font-size: 14px; margin: 0;">Round-the-clock support ensuring your projects never face delays.</p>
             </div>
           </div>
         </div>

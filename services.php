@@ -179,7 +179,7 @@
                 </div>
                 <div style="margin-top: 50px;">
                     <p style="font-weight: 600; font-style: italic; color: var(--primary-color);">Trans Asia is your strategic partner for securing qualified, healthy, and job-ready talent from Bangladesh.</p>
-                    <a href="contact.php" class="btn btn-primary mt-4">Partner With Us</a>
+                    <a href="contact.php" class="btn btn-primary mt-4">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -192,7 +192,7 @@
         <div data-aos="fade-up">
           <h2>Ready to Experience Seamless Hiring?</h2>
           <p>Get in touch with our experts to start your recruitment journey</p>
-          <a href="contact.php" class="btn btn-white">Contact Us Today</a>
+          <a href="contact.php" class="btn btn-white">Contact Us</a>
         </div>
       </div>
     </section>
